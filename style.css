@@ -1,275 +1,306 @@
-                                                                                  :root {
-                                                                                 --color-primary: #f34451;
-                                                                                 --color-secondary: #f7f7fe;
-                                                                                 --color-primary-light: #fdeeec;
-                                                                                 --color-body: rgba(88, 97, 103, .7);
-                                                                                 --header-color: #586167;
-                                                                             }
-                                                                             
-                                                                             .navbar-brand img {
-                                                                                 height: 40px;
-                                                                             }
-                                                                             
-                                                                             .btn-danger {
-                                                                                 background-color: var(--color-primary);
-                                                                             }
-                                                                             
-                                                                             .navbar input[type='search'] {
-                                                                                 background-color: var(--color-primary-light);
-                                                                             }
-                                                                             
-                                                                             .carousel-item img {
-                                                                                 height: 90vh;
-                                                                                 object-fit: cover;
-                                                                                 object-position: center;
-                                                                             }
-                                                                             
-                                                                             .carousel-content {
-                                                                                 position: absolute;
-                                                                                 height: 90vh;
-                                                                                 left: 0;
-                                                                                 top: 0;
-                                                                                 width: 100%;
-                                                                             }
-                                                                             
-                                                                             .carousel-content-title {
-                                                                                 font-weight: bold;
-                                                                             }
-                                                                             
-                                                                             .carousel-content-title::after {
-                                                                                 content: '';
-                                                                                 display: block;
-                                                                                 width: 4%;
-                                                                                 height: 2px;
-                                                                                 background-color: var(--color-primary);
-                                                                                 margin-left: auto;
-                                                                             }
-                                                                             
-                                                                             .card-bodie,
-                                                                             .card-paragraph,
-                                                                             .bg-color-light-purple p,
-                                                                             .font-roboto,
-                                                                             .description p,
-                                                                             .paragraph {
-                                                                                 color: var(--color-body);
-                                                                             }
-                                                                             
-                                                                             .paragraph {
-                                                                                 font-size: 16px;
-                                                                             }
-                                                                             
-                                                                             .card-description span {
-                                                                                 background-color: var(--color-primary-light);
-                                                                                 color: var(--color-primary);
-                                                                             }
-                                                                             
-                                                                             .card-heading,
-                                                                             .card-title,
-                                                                             .bg-color-light-purple h6,
-                                                                             .monuments,
-                                                                             .description h3,
-                                                                             .heading {
-                                                                                 color: rgb(88, 97, 103);
-                                                                             }
-                                                                             
-                                                                             .icon {
-                                                                                 width: 30px;
-                                                                                 height: 30px;
-                                                                                 border-radius: 50%;
-                                                                                 background-color: var(--color-primary-light);
-                                                                             }
-                                                                             
-                                                                             .position-img {
-                                                                                 position: absolute;
-                                                                                 top: -20;
-                                                                                 left: 140;
-                                                                             }
-                                                                             
-                                                                             .card img {
-                                                                                 height: 300px;
-                                                                             }
-                                                                             
-                                                                             .card {
-                                                                                 box-shadow: 0px 20px 25px rgba(0, 0, 0, 6%);
-                                                                             }
-                                                                             
-                                                                             .bg-color-light-purple {
-                                                                                 background-color: #f7f7fe;
-                                                                                 width: 30%;
-                                                                                 height: 65%;
-                                                                                 /* padding: 300px; */
-                                                                             }
-                                                                             
-                                                                             .font-roboto {
-                                                                                 width: 76%;
-                                                                             }
-                                                                             
-                                                                             .rows {
-                                                                                 margin-top: -600px;
-                                                                             }
-                                                                             
-                                                                             .features {
-                                                                                 background-color: var(--color-primary);
-                                                                                 position: absolute;
-                                                                                 left: 40px;
-                                                                                 top: 40px;
-                                                                             }
-                                                                             
-                                                                             .text {
-                                                                                 margin-top: 50px;
-                                                                             }
-                                                                             
-                                                                             .d-flex img {
-                                                                                 width: 60%;
-                                                                                 height: 100%;
-                                                                                 border-radius: 5px;
-                                                                                 padding: 15px;
-                                                                                 background-color: #fff2f3;
-                                                                                 margin-right: 15px;
-                                                                             }
-                                                                             
-                                                                             .inches,
-                                                                             .real {
-                                                                                 color: #f86c78;
-                                                                                 background-color: #fff2f3;
-                                                                             }
-                                                                             
-                                                                             .details-section {
-                                                                                 border-bottom: 1px solid rgb(223, 221, 221);
-                                                                                 padding-bottom: 40px;
-                                                                                 border-top: 1px solid rgb(223, 221, 221);
-                                                                                 padding-top: 30px;
-                                                                             }
-                                                                             
-                                                                             .video-section {
-                                                                                 background-image: url(./images/video-bg.png);
-                                                                                 padding: 80px;
-                                                                                 margin-top: 150px;
-                                                                             }
-                                                                             
-                                                                             .video-card {
-                                                                                 width: 55%;
-                                                                                 padding: 60px 10px;
-                                                                             }
-                                                                             
-                                                                             .play-youtube {
-                                                                                 width: 70px;
-                                                                                 height: 70px;
-                                                                                 border-radius: 50%;
-                                                                                 font-size: 30px;
-                                                                             }
-                                                                             
-                                                                             .youtube {
-                                                                                 width: 100%;
-                                                                                 height: 300px;
-                                                                             }
-                                                                             
-                                                                             .bg-card {
-                                                                                 position: absolute;
-                                                                                 top: 60px;
-                                                                                 left: 50px;
-                                                                                 transform: scale(0);
-                                                                             }
-                                                                             
-                                                                             .hover-card:hover .bg-card {
-                                                                                 transform: scale(1);
-                                                                                 transition: transform .7s ease-in-out;
-                                                                             }
-                                                                             
-                                                                             .prop-services {
-                                                                                 margin: 100px 0;
-                                                                             }
-                                                                             
-                                                                             .link-danger::after {
-                                                                                 content: '';
-                                                                                 display: inline-block;
-                                                                                 width: 20%;
-                                                                                 height: 1px;
-                                                                                 background-color: var(--color-primary);
-                                                                                 margin-left: 10px;
-                                                                             }
-                                                                             
-                                                                             .card-prop {
-                                                                                 position: absolute;
-                                                                                 top: -210px;
-                                                                                 box-shadow: 0px 20px 35px rgba(0, 0, 0, 16%);
-                                                                                 width: 90%;
-                                                                             }
-                                                                             
-                                                                             .prop-section {
-                                                                                 background-color: #f7f7fe;
-                                                                                 /* height: 20%; */
-                                                                                 /* padding: 80px; */
-                                                                                 padding: 145px 0px;
-                                                                             }
-                                                                             
-                                                                             .prop-section img {
-                                                                                 width: 17%;
-                                                                                 background-color: var(--color-primary);
-                                                                                 padding: 13px;
-                                                                                 border-radius: 10%;
-                                                                             }
-                                                                             
-                                                                             .prop-img {
-                                                                                 position: absolute;
-                                                                                 top: -240px;
-                                                                                 left: 50px;
-                                                                             }
-                                                                             
-                                                                             .img-grid img {
-                                                                                 object-fit: cover;
-                                                                             }
-                                                                             
-                                                                             .img-grid img {
-                                                                                 width: 100%;
-                                                                                 height: 100%;
-                                                                             }
-                                                                             
-                                                                             .position-img-grid {
-                                                                                 position: absolute;
-                                                                                 top: 40px;
-                                                                                 left: 40px;
-                                                                                 transform: scale(0);
-                                                                             }
-                                                                             
-                                                                             .grid-hover:hover .position-img-grid {
-                                                                                 transform: scale(1);
-                                                                                 transition: transform .3s;
-                                                                             }
-                                                                             
-                                                                             .subscribe-bg {
-                                                                                 background-image: url(./images/subscribe-bg.jpg);
-                                                                                 padding: 80px;
-                                                                                 width: 100%;
-                                                                             }
-                                                                             
-                                                                             .subscribe-body {
-                                                                                 padding: 80px 180px;
-                                                                             }
-                                                                             
-                                                                             input::placeholder {
-                                                                                 color: red;
-                                                                                 font-size: 11px;
-                                                                             }
-                                                                             
-                                                                             @media(max-width:750px) {
-                                                                                 .subscribe-bg {
-                                                                                     padding: 16px;
-                                                                                 }
-                                                                                 .subscribe-body {
-                                                                                     padding: 16px;
-                                                                                 }
-                                                                                 .video-card {
-                                                                                     width: 100%;
-                                                                                     padding: 24px 10px;
-                                                                                 }
-                                                                                 .video-section {
-                                                                                     padding: 8px;
-                                                                                     margin-top: 150px;
-                                                                                 }
-                                                                                 .bg-color-light-purple {
-                                                                                     width: 100%;
-                                                                                 }
-                                                                                 .img-row img {
-                                                                                     width: 60%;
-                                                                                 }
+:root {
+    --color-primary: #f34451;
+    --color-secondary: #f7f7fe;
+    --color-primary-light: #fdeeec;
+    --color-body: rgba(88, 97, 103, .7);
+    --header-color: #586167;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.btn-danger {
+    background-color: var(--color-primary);
+}
+
+.navbar input[type='search'] {
+    background-color: var(--color-primary-light);
+}
+
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-content {
+    position: absolute;
+    height: 90vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.carousel-content-title {
+    font-weight: bold;
+}
+
+.carousel-content-title::after {
+    content: '';
+    display: block;
+    width: 4%;
+    height: 2px;
+    background-color: var(--color-primary);
+    margin-left: auto;
+}
+
+.card-bodie,
+.card-paragraph,
+.bg-color-light-purple p,
+.font-roboto,
+.description p,
+.paragraph {
+    color: var(--color-body);
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
+.card-description span {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+}
+
+.card-heading,
+.card-title,
+.bg-color-light-purple h6,
+.monuments,
+.description h3,
+.heading {
+    color: rgb(88, 97, 103);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-primary-light);
+}
+
+.position-img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.card img {
+    height: 300px;
+}
+
+.card {
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 6%);
+}
+
+.bg-color-light-purple {
+    position: absolute;
+    background-color: #f7f7fe;
+    width: 30%;
+    height: 65%;
+    /* padding: 300px; */
+}
+
+.font-roboto {
+    width: 76%;
+}
+
+.rows {
+    /* margin-top: -600px; */
+}
+
+.features {
+    background-color: var(--color-primary);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.text {
+    margin-top: 50px;
+}
+
+.d-flex img {
+    width: 60%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff2f3;
+    margin-right: 15px;
+}
+
+.inches,
+.real {
+    color: #f86c78;
+    background-color: #fff2f3;
+}
+
+.details-section {
+    border-bottom: 1px solid rgb(223, 221, 221);
+    padding-bottom: 40px;
+    border-top: 1px solid rgb(223, 221, 221);
+    padding-top: 30px;
+}
+
+.video-section {
+    background-image: url(./images/video-bg.png);
+    padding: 80px;
+    margin-top: 150px;
+}
+
+.video-card {
+    width: 55%;
+    padding: 60px 10px;
+}
+
+.play-youtube {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.youtube {
+    width: 100%;
+    height: 300px;
+}
+
+.bg-card {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transform: scale(0);
+}
+
+.hover-card:hover .bg-card {
+    transform: scale(1);
+    transition: transform .7s ease-in-out;
+}
+
+.prop-services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.link-danger::after {
+    content: '';
+    display: inline-block;
+    width: 20%;
+    height: 1px;
+    background-color: var(--color-primary);
+    margin-left: 10px;
+}
+
+.card-prop {
+    position: absolute;
+    top: -210px;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 16%);
+    width: 90%;
+}
+
+.prop-section {
+    background-color: #f7f7fe;
+    /* height: 20%; */
+    /* padding: 80px; */
+    padding: 145px 0px;
+}
+
+.prop-section img {
+    width: 17%;
+    background-color: var(--color-primary);
+    padding: 13px;
+    border-radius: 10%;
+}
+
+.prop-img {
+    position: absolute;
+    top: -240px;
+    left: 50px;
+}
+
+.img-grid img {
+    object-fit: cover;
+}
+
+.img-grid img {
+    width: 100%;
+    height: 100%;
+}
+
+.position-img-grid {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transform: scale(0);
+}
+
+.grid-hover:hover .position-img-grid {
+    transform: scale(1);
+    transition: transform .3s;
+}
+
+.subscribe-bg {
+    background-image: url(./images/subscribe-bg.jpg);
+    padding: 80px;
+    width: 100%;
+}
+
+.subscribe-body {
+    padding: 80px 180px;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 11px;
+}
+
+@media(max-width:750px) {
+    .subscribe-bg {
+        padding: 16px;
+    }
+    .subscribe-body {
+        padding: 16px;
+    }
+    .video-card {
+        width: 100%;
+        padding: 24px 10px;
+    }
+    .video-section {
+        padding: 8px;
+        margin-top: 150px;
+    }
+    .bg-color-light-purple {
+        width: 100%;
+    }
+    .img-row img {
+        width: 60%;
+    }
+    .first-card {
+        padding: 80px;
+    }
+    .howmuch {
+        font-size: 26px;
+    }
+    .card-bodie,
+    .card-tex {
+        font-size: 12px;
+    }
+    .carousel-content-title::after {
+        margin: 0 auto;
+    }
+    .bg-color-light-purple,
+    .section {
+        margin-top: 50px;
+    }
+    .prop-services {
+        margin-top: 0px;
+    }
+    .description {
+        display: block
+    }
+    .square_ft {
+        margin-top: 20px;
+    }
+}
