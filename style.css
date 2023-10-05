@@ -77,6 +77,10 @@
     height: 30px;
     border-radius: 50%;
     background-color: var(--color-primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
 }
 
 .position-img {
@@ -204,7 +208,7 @@
     background-color: #f7f7fe;
     /* height: 20%; */
     /* padding: 80px; */
-    padding: 100px 0px;
+    padding: 145px 0px;
 }
 
 .prop-section img {
@@ -304,6 +308,9 @@ input::placeholder {
         margin-top: 20px;
     }
     .prop-section section {
-        margin-top: 50px;
+        padding: 100px 0px;
+    }
+    .img-grid img {
+        object-fit: cover;
     }
 }
