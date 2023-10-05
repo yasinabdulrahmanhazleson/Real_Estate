@@ -196,7 +196,7 @@
 .card-prop {
     position: absolute;
     top: -210px;
-    box-shadow: 0px 20px 35px rgba(0, 0, 0, 6%);
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 2%);
     width: 90%;
 }
 
@@ -204,7 +204,7 @@
     background-color: #f7f7fe;
     /* height: 20%; */
     /* padding: 80px; */
-    padding: 145px 0px;
+    padding: 100px 0px;
 }
 
 .prop-section img {
@@ -302,5 +302,8 @@ input::placeholder {
     }
     .square_ft {
         margin-top: 20px;
+    }
+    .prop-section section {
+        margin-top: 50px;
     }
 }
